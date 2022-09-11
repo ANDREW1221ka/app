@@ -32,8 +32,8 @@ Para borrar manualmente los recursos y reiniciemos node */
 //list resources
 async function listResources() {
 
-try {
-    const url = "http://localhost:8085/api/v4/resources/";
+  try {
+    const url = process.env.EMQX_HOST + ":8085/api/v4/resources/";
 
     const res = await axios.get(url, auth);
   
@@ -97,12 +97,12 @@ try {
 async function createResources() {
 
     try {
-        const url = "http://localhost:8085/api/v4/resources";
+        const url = process.env.EMQX_HOST + ":8085/api/v4/resources";
 
         const data1 = {
             "type": "web_hook",
             "config": {
-                url: "http://localhost:3001/api1/saver-webhook",
+                url: process.env.EMQX_HOST + ":3001/api1/saver-webhook",
                 headers: {
                     token: process.env.EMQX_VARIABLE
                 },
@@ -114,7 +114,7 @@ async function createResources() {
         const data2 = {
             "type": "web_hook",
             "config": {
-                url: "http://localhost:3001/api1/alarm-webhook",
+                url: process.env.EMQX_HOST + ":3001/api1/alarm-webhook",
                 headers: {
                     token: process.env.EMQX_VARIABLE
                 },
@@ -151,6 +151,6 @@ async function createResources() {
 
 setTimeout(() => {
   listResources();
-}, 1000);
+}, process.env.EMQX_RESOURCES_DELAY);
 
 module.exports = router;
