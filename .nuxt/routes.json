@@ -1,0 +1,65 @@
+[
+  {
+    "name": "alarms",
+    "path": "/alarms",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\alarms.vue",
+    "chunkName": "pages/alarms",
+    "_name": "_75dbe931"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_49f10875"
+  },
+  {
+    "name": "devices",
+    "path": "/devices",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\devices.vue",
+    "chunkName": "pages/devices",
+    "_name": "_986d8704"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_0a6ba74a"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_6411b552"
+  },
+  {
+    "name": "templates",
+    "path": "/templates",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\templates.vue",
+    "chunkName": "pages/templates",
+    "_name": "_69ee069a"
+  },
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\test.vue",
+    "chunkName": "pages/test",
+    "_name": "_1e74c17e"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage",
+    "path": "/GeneralViews/NotFoundPage",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\GeneralViews\\\\NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage",
+    "_name": "_599c89b3"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\HP\\\\Desktop\\\\PROYECTO FINAL\\\\app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_40c40433"
+  }
+]
